@@ -239,13 +239,13 @@ bar {
     separator_symbol " | "
 
     colors {
-        background #1F0020
-        statusline #657dce
-        separator #D76CCA
+        background #4C566A
+        statusline #D8DEE9
+        separator  #3B4252
 
         focused_workspace  #81A1C1 #81A1C1 #ECEFF4
-        active_workspace   #333333 #5f676a #ECEFF4
-        inactive_workspace #1f0020 #1f0020 #ECEFF4
+        active_workspace   #8FBCBB #8FBCBB #ECEFF4
+        inactive_workspace #3B4252 #4C566A #ECEFF4
         urgent_workspace   #5516C0 #5516C0 #ECEFF4
         binding_mode       #5516C0 #5516C0 #ECEFF4
     }
@@ -265,7 +265,7 @@ bar {
         separator  #3B4252
 
         focused_workspace  #81A1C1 #81A1C1 #ECEFF4
-        active_workspace   #000000 #000000 #ECEFF4
+        active_workspace   #8FBCBB #8FBCBB #ECEFF4
         inactive_workspace #3B4252 #4C566A #ECEFF4
         urgent_workspace   #5516C0 #5516C0 #ECEFF4
         binding_mode       #5516C0 #5516C0 #ECEFF4
