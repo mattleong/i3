@@ -190,13 +190,13 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Monitor Mode
-set $mode_launcher Monitor: [j] All [k] External [l] Auto
+set $mode_launcher Monitor: [a]uto [h]ome [w]ork
 bindsym $mod+m mode "$mode_launcher"
 
 mode "$mode_launcher" {
-    bindsym j exec xrandr --output DisplayPort-1 --left-of HDMI-0 --ouput HDMI-0 --left-of eDP
-    bindsym k exec xrandr --output DisplayPort-1 --left-of HDMI-0 --ouput eDP --off
-    bindsym l exec xrand --auto
+    bindsym a exec xrandr --auto
+	bindsym h exec xrandr --output HDMI-0 --right-of eDP --output eDP --off
+	bindsym w exec xrandr --output eDP --off --output DisplayPort-1 --left-of HDMI-0
 
     bindsym Escape mode "default"
     bindsym Return mode "default"
